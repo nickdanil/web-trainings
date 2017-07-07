@@ -1,0 +1,22 @@
+p, div{
+    background: #f0f0f0;
+    margin: 30px 20% 0 20%;
+}
+
+ /* Пример комментария в CSS */
+
+dt:nth-of-type(2n) {
+  background: #eee;
+}
+
+input[checked="checked"]{
+    border: 1px solid black;
+}
+
+  .quote::before {
+    content: "''";
+  }
+
+  .quote::after {
+    content: " '' ";
+  }
